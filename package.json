@@ -1,32 +1,19 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
-  "engines": {
-    "node": "13.x",
-    "npm": "6.x"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
-  "author": "Karla McLeod",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "mongoose": "^5.9.25",
-    "morgan": "^1.10.0",
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kmcleod81/Workout-Tracker.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/kmcleod81/Workout-Tracker/issues"
-  },
-  "homepage": "https://github.com/kmcleod81/Workout-Tracker#readme",
-  "description": ""
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  }
 }
