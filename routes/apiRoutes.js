@@ -26,4 +26,26 @@ router.put('/workouts/:id', (req, res) => {
         });
 });
 
+router.post('/workouts', (req, res) => {
+    db.Workout.create(req.body)
+        .then((dbWorkout) => {
+            console.log(dbWorkout, 'workout posted');
+            res.json(dbWorkout);
+        })
+        .catch((err) => {
+            res.status(500).json(err)
+        });
+});
+
+router.get('/workouts/range', (req, res) => {
+    db.Workout.find({})
+        .then((dbWorkout) => {
+            console.log(dbWorkout);
+            res.json(dbWorkout);
+        })
+        .catch((err) => {
+            res.status(500).json(err)
+        });
+});
+
 module.exports = router;
