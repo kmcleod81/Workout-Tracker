@@ -1,7 +1,6 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "engines": {
     "node": "13.x",
@@ -18,14 +17,16 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.25",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kmcleod81/Workout-Tracker.git"
   },
+  "keywords": [],
   "bugs": {
     "url": "https://github.com/kmcleod81/Workout-Tracker/issues"
   },
-  "homepage": "https://github.com/kmcleod81/Workout-Tracker#readme"
+  "homepage": "https://github.com/kmcleod81/Workout-Tracker#readme",
+  "description": ""
 }
