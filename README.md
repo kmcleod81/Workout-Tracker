@@ -2,8 +2,7 @@
 
 [![Custom badge](https://img.shields.io/badge/License-ISC-green.svg)](https://shields.io/)
 
-[![repo size badge](https://img.shields.io/badge/github/repo-size/:kmcleod81/:Workout-Tracker)](https://shields.io/)
-	
+[![GitHub repo size](https://img.shields.io/github/repo-size/kmcleod81/Workout-Tracker)](https://shields.io/)
 
 ![Workout Tracker](./public/img/workout.gif)
 
