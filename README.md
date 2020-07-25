@@ -8,6 +8,7 @@
 
 ## Table of Contents:
 * [Description](#Description)
+* [Technologies](#Technologies)
 * [How to Install](#How-to-Install)
 * [Usage](#Usage)
 * [Contributors](#Contributors)
@@ -15,6 +16,16 @@
 
 ## Description
 This is a full stack app that keeps track and displays recent workouts the user inputs into the prompts. The user can add various exercises to thier workout and can track specific info for each exercise. Data is stored in a NoSQL data base using MongoDB and Mongoose.
+
+## Technologies
+* Javascript
+* MongoDB
+* jQuery
+* Node.js
+    * express
+    * mongoose
+    * morgan
+* Deployed in Heroku
 
 ## How to Install
 To run locally: `npm install` in your terminal/bash. To run the seed file, `npm run seed` then `node server` or `npm start`
